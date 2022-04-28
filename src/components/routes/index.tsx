@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import App from "../../App"
 
-const RoutesManager = () => {
+const Router = () => {
   return (
     <Routes>
       <Route path="/" element={<App />}>
@@ -10,4 +10,4 @@ const RoutesManager = () => {
   )
 }
 
-export default RoutesManager
+export default Router
